@@ -38,6 +38,10 @@ const quotes = [
     {
         quote : "I am Iron Man.",
         author : "Tony Stark"
+    },
+    {
+        quote : "Kill you bebe",
+        author : "Juhee the chopper"
     }
 ]
 
