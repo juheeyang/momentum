@@ -1,0 +1,138 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans");
+
+.hidden {
+    display: none;
+}
+
+h2 {
+    text-align: center;
+    margin: 0;
+}
+
+body,
+html {
+  overflow: hidden;
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans", sans-serif;
+}
+
+@keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+
+  body {
+    background-size: cover;
+    background-position: center center;
+    opacity: 0;
+    animation: fadeIn 1s ease-in-out forwards;
+    animation-delay: 0.5s;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  input {
+    background: none;
+    appearance: none;
+    border: 0;
+    font-size: 22px;
+    color: white;
+    border-bottom: 2px solid white;
+  }
+  
+  input::placeholder {
+    color: white;
+  }
+  
+  input:focus,
+  input:active {
+    outline: none;
+  }
+
+  .weather {
+    position: absolute;
+    font-style: italic;
+    font-size: 12px;
+    position: absolute;
+    top: 25px;
+    right: 25px;
+  }
+
+  .clock {
+    font-size: 5em;
+    margin-bottom: 200px;
+  }
+
+  .center {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .center .input_name {
+    appearance: none;
+    background: none;
+    border: none;
+    color: white;
+    font-size: 36px;
+    border-bottom: 3px solid rgba(255, 255, 255, 0.8);
+    margin-bottom: 20px;
+  }
+  .center .input_name::placeholder {
+    color: white;
+    opacity: 0.6;
+  }
+  
+  .center .input_name:focus,
+  .center .input_name:active {
+    outline: none;
+  }
+  
+  .center .greeting_name {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .center .greeting {
+    margin-bottom: 30px;
+  }
+
+  ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  ul {
+    margin-top: 50px;
+  }
+
+  .todo-list {
+    margin-bottom: 20px;
+  }
+  
+  .toDo {
+    font-size: 22px;
+  }
+  
+  .toDo__button {
+    margin-right: 10px;
+    cursor: pointer;
+  }
+
+  #quote {
+    margin-top: 50px;
+  }
+
+  #quote span{
+    opacity: 0.6;
+  }
